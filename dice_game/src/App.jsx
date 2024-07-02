@@ -14,7 +14,7 @@ function App() {
 
   return (
     <DiceProvider>
-      { isGameStarted ? <SelectNumber /> : <MainDice toggle={toggleGamePlay} /> }
+      { isGameStarted ? <SelectNumber /> : <MainDice toggle={toggleGamePlay} />}
     </DiceProvider>
   );
 }
